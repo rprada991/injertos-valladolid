@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+# Allow important pages
+Allow: /index.html
+Allow: /servicios.html
+Allow: /sobre-nosotros.html
+Allow: /contacto.html
+Allow: /blog/
+
+# Sitemaps
+Sitemap: https://www.injertoscapilaresvalladolid.es/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10

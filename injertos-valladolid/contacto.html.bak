@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Clínica de Injertos Capilares en Valladolid</title>
+    <meta name="description" content="Contacta con nuestra clínica de injertos capilares en Valladolid. Solicita tu consulta gratuita y recibe asesoramiento personalizado de nuestros especialistas.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Clínica de Injertos Capilares Valladolid",
+        "image": "images/clinica-injertos-valladolid.webp",
+        "telephone": "+34983000000",
+        "email": "info@injertoscapilaresvalladolid.es",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Calle Principal 123",
+            "addressLocality": "Valladolid",
+            "postalCode": "47001",
+            "addressCountry": "ES"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "41.652251",
+            "longitude": "-4.728562"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "20:00"
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header class="main-header">
+        <!-- Header content same as index.html -->
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="container">
+                <h1>Contacta con Nosotros</h1>
+                <p class="hero-subtitle">Estamos aquí para resolver todas tus dudas</p>
+            </div>
+        </section>
+
+        <section class="contact-info-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Información de Contacto</h2>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Dirección</h3>
+                                <p>Calle Principal 123</p>
+                                <p>47001 Valladolid</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Teléfono</h3>
+                                <p><a href="tel:+34983000000">983 000 000</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@injertoscapilaresvalladolid.es">info@injertoscapilaresvalladolid.es</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Horario</h3>
+                                <p>Lunes a Viernes: 9:00 - 20:00</p>
+                                <p>Sábados: Cerrado</p>
+                                <p>Domingos: Cerrado</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Solicita tu Consulta Gratuita</h2>
+                        <form id="contactForm" action="/submit-form" method="POST">
+                            <div class="form-group">
+                                <label for="name">Nombre completo *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Teléfono *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Servicio de interés</label>
+                                <select id="service" name="service">
+                                    <option value="">Selecciona un servicio</option>
+                                    <option value="fue">Injerto Capilar FUE</option>
+                                    <option value="dhi">Injerto Capilar DHI</option>
+                                    <option value="micropigmentacion">Micropigmentación Capilar</option>
+                                    <option value="prp">Tratamiento PRP</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <div class="form-group checkbox">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy">Acepto la <a href="/privacidad">política de privacidad</a> *</label>
+                            </div>
+                            <button type="submit" class="btn-primary">Enviar Consulta</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <h2>Nuestra Ubicación</h2>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2982.3761854860644!2d-4.730750684596433!3d41.65225107924117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd47728e14317461%3A0x89bdf98e534658c3!2sValladolid%2C%20Spain!5e0!3m2!1sen!2sus!4v1620835842619!5m2!1sen!2sus"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2>Preguntas Frecuentes</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>¿Cómo puedo solicitar una cita?</h3>
+                        <p>Puedes solicitar una cita a través de nuestro formulario de contacto, llamándonos por teléfono o enviándonos un email.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿La primera consulta es gratuita?</h3>
+                        <p>Sí, la primera consulta de valoración es totalmente gratuita y sin compromiso.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Cuánto tiempo dura la consulta?</h3>
+                        <p>La primera consulta suele durar entre 45-60 minutos, donde realizamos un diagnóstico completo y te explicamos las opciones de tratamiento.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>¿Ofrecéis financiación?</h3>
+                        <p>Sí, disponemos de diferentes opciones de financiación adaptadas a tus necesidades.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <!-- Footer content same as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
